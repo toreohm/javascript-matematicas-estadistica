@@ -1,4 +1,5 @@
 # javascript-matematicas-estadistica
+<p><a href="https://toreohm.github.io/javascript-matematicas-estadistica/" target="_blank">https://toreohm.github.io/javascript-matematicas-estadistica/</a></p>
 El objetivo del curso es aprender a resolver problemas de matemáticas y estadística básica usando JavaScript.<br>
 <ul>
 <li>Aprender a traducir fórmulas matemáticas a JavaScript.</li>
