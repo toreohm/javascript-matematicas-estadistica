@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./index.css" type="text/css">
+  <title>Calcula tu ahorro.</title>
+</head>
+<body>
+  <main>
+    <header>
+      <img src="./logo-platzi.png" alt="logo" class="logo">
+      <h1 class="title">Proyecto - Taller pra&#769;ctico de JavaScript</h1>
+      <h1 class="title">Proyecto - Taller pra&#769;ctico de JavaScript: Ma&#769;tematicas y Estadi&#769;stica Ba&#769;sica</h1>
+      <p><a href="./index.html" class="link-header">Menu&#769; principal </a></p>
+    </header>
+    <section class="container-principal">
+      <aside>
+        <h3>Capacidad de ahorro</h3>
+        <dl>
+          <dt><ins>Capacidad de ahorro:</ins></dt>
+          <dd> Es la posibilidad que tienen las personas de separar un porcentaje de sus ingresos y reservarlo para su uso en el futuro.</dd> <br>
+          <dt><ins>La regla 50/30/20:</ins></dt> 
+          <dd> Es una fórmula sencilla para lograr ahorrar y controlar gastos.</dd>
+        </dl>
+      </aside>
+
+      <div class="form-container">
+        <p>Calcula y desglosa tus gastos y ahorros</p>
+        <form action="">
+          <label for="ingresos">Ingresos</label>
+          <input type="number" id="ingresos">
+          <label for="result">Resultado de calculos</label>
+          <textarea id="result" cols="30" rows="10" disabled></textarea>
+          <input type="button" value="Calcular" id="calcular">
+        </form>
+      </div>
+
+      <div class="error-message inactive">
+        <p>Error</p>
+        <p id="mensaje"></p>
+        <button type="button" id="botonError">Aceptar</button>
+      </div>
+    </section>
+
+  </main>
+  <script src="./capacidadahorro.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css" type="text/css">
+  <title>Cupones</title>
+</head>
+<style>
+  #calculoCupon {
+    display: inline-block;
+    margin: 15px;
+  }
+  #resultado {
+    display: none;
+    margin: 15px;
+    border: 2px solid mediumblue;
+    padding: 0 15px 2px;
+  }
+  .border-red {
+    border: 2px solid red;
+  }
+</style>
+<body>
+  <header>
+    <img src="./logo-platzi.png" alt="logo" class="logo">
+    <h1 class="title">Proyecto - Taller pra&#769;ctico de JavaScript</h1>
+    <h1 class="title">Proyecto - Taller pra&#769;ctico de JavaScript: Ma&#769;tematicas y Estadi&#769;stica Ba&#769;sica</h1>
+    <p><a href="./index.html" class="link-header">Menu&#769; principal </a></p>
+  </header>
+  <h1>Ca&#769;lculo de Cupones</h1>
+  <form id="calculoCupon">
+    <fieldset>
+      <legend>C&aacute;lculo de cupon</legend>
+      <label for="precio">Precio</label><br>
+      <input id="precio" type="number"><br>
+      <label for="cupon">cupon</label><br>
+      <input id="cupon" type="text"><br><br>
+      <button id="calculoFinal" type="button">Calcular</button> &nbsp;
+      <input type="reset" id="reset">
+    </fieldset>
+  </form>
+  <div id="resultado">
+    <h3>Resultado</h3>
+    <p></p>
+  </div>
+  <script src="./cupones.js"></script>
+</body>
+</html>
